@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import {View, FlatList, Alert, ToastAndroid} from 'react-native';
-import {Body, Card, CardItem, Left, Container, Text, Thumbnail, Header, Button, Icon, Right, Title, Grid, Col, Footer} from "native-base";
-import {softGreen, softRed} from "../../assets/styles/color";
+import {FlatList, Alert, ToastAndroid} from 'react-native';
+import {Body, Card, CardItem, Left, Container, Text, Thumbnail, Header, Button, Right, Title, Footer} from "native-base";
+import {softGreen} from "../../assets/styles/color";
 import {getContact} from "../../helpers/networks";
 import AsyncStorage from '@react-native-community/async-storage';
 import {NavigationActions, StackActions} from "react-navigation";

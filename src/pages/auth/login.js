@@ -15,8 +15,8 @@ class login extends Component {
         super(props);
         this.state = {
             isLoading : true,
-            username : 'tonjoo',
-            password : 'tonjoo'
+            username : '',
+            password : ''
         }
     }
 
@@ -131,14 +131,6 @@ class login extends Component {
                                 Login
                             </Text>
                         </Button>
-
-                        {/*<Button rounded block success*/}
-                                {/*style={{ marginTop : 10 }}*/}
-                                {/*onPress={ this.gotoRegister.bind(this) }>*/}
-                            {/*<Text>*/}
-                                {/*Register*/}
-                            {/*</Text>*/}
-                        {/*</Button>*/}
                     </View>
                 </View>
             </Container>
